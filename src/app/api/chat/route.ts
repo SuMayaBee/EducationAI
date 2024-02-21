@@ -3,7 +3,7 @@ import prisma from "@/lib/db/prisma";
 import openai, { getEmbedding } from "@/lib/openai";
 import { auth } from "@clerk/nextjs";
 import { match } from "assert";
-import { ChatCompletionMessage } from "openai/resources/index.mjs";
+import { ChatCompletionMessage } from "openai/resources/index.js";
 import {OpenAIStream, StreamingTextResponse} from "ai"
 
 
