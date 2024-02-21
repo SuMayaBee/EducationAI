@@ -118,7 +118,7 @@ export default function AIChatBox({ open, onClose}: AIChatBoxProps) {
                 {
                     !error && messages.length ===0 && (
                         <div className="flex h-full items-center justify-center gap-3"> 
-                            <img src="http://mis.academy/images/7/7d/Mis-robot.gif" alt="MIS Robot" className="w-40 h-40" /> 
+                            <img src="https://mis.academy/images/7/7d/Mis-robot.gif" alt="MIS Robot" className="w-40 h-40" /> 
                             <Bot />
                             <p className="text-center">Ask me anything!</p>
 
